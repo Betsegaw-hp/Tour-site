@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link
+  rel="stylesheet"
+  href="./fontawesome-free-5.12.0-web/css/all.min.css"
+/>
+<!--[if IE]>
+<link rel="stylesheet" href="ie.css">
+<![endif]-->
+
+<!-- styles -->
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="preloader">
+    <img src="media/preloader.gif" alt="preloader" class="preloader__item" />
+  </div>
+  <header id="home">
+    <!-- nav -->
+    <nav id="nav">
+      <div class="nav-center">
+        <div class="nav-header">
+          <img class="logo" src="fontawesome-free-5.12.0-web\svgs\solid\camera.svg" alt="logo">
+          <button class="nav-toggle">
+            <i class="fas fa-bars fa-times"></i>
+            <!-- <i class="fas fa-times close"></i> -->
+          </button>
+        </div>
+        <div class="links-container">
+         <ul class="links ">
+           <li>
+             <a href="#home" class="scroll-link">home</a>
+           </li>
+           <li>
+             <a href="#about" class="scroll-link">about</a>
+           </li>
+           <li>
+             <a href="#services" class="scroll-link">services</a>
+           </li>
+           <li>
+             <a href="#tours" class="scroll-link">tours</a>
+           </li>
+           <li>
+             <a href="#contact-us" class="scroll-link">contact us</a>
+           </li>
+         </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- banner -->
+    <div class="banner">
+     <div class="container">
+    <h2 style="color: azure;">Don't let dream just be your dream</h2>
+    <p>Lorem ipsum dolor sit amet consectetur.
+       adipisicing elit. Quas eos neque sunt in? Id,
+       necessitatibus quos quisquam distinctio laudan
+       tium fugiat?
+   </p>
+   <a href="#tours" class="scroll-link btn btn-white">EXPLORE more</a>
+     </div>
+    </div>
+  </header>
+   <!-- about -->
+   <section id="about" class="section">
+     <div class="title">
+       <h2>about <span>us</span></h2>
+     </div>
+     <div class="section-center">
+      <div class="grid-container">
+        <div class="grid-div">
+          <img src="undraw_journey_lwlj.svg" id="about-grid-img">
+        </div>
+        <div class="grid-div">
+          <h3>unforgettable moment with us</h3>
+          <p>Aperiam neque sed iure deleniti illo et.
+             Veritatis ab et est voluptate dolor iure beatae voluptatum cupiditate. Neque soluta minus vitae dolores animi.<wbr>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero porro quae nesciunt quam eum.</wbr> Saepe exercitationem
+             </p>
+             <button type="button" class="btn">learn more</button>
+        </div>
+      </div>
+      
+     </div>
+   </section>
+   <!-- services -->
+   <section id="services" class="section">
+     <div class="title">
+       <h2>our <span>services</span></h2>
+       </div>
+       <div class="section-center">
+         <div class="service-container">
+         <div class="container-ele">
+          <i class="fas fa-space-shuttle fa-2x"></i>
+           <h4>Future Intranet Assistant</h4>
+           <p>Ipsa deserunt eos qui excepturi. Quae totam sed voluptatum et. Voluptatem magni quia et et ipsam quibusdam incidunt magni. Sequi architecto rerum a assumenda qui aliquid quia mollitia.</p>
+           <button>learn more</button>
+         </div>
+         <div class="container-ele">
+          <i  class="fas fa-truck-monster fa-2x"></i>
+          <h4>Dynamic Mobility Technician</h4>
+          <p>Totam natus quis iste adipisci ratione aliquam corrupti officia aut. Quas labore excepturi velit.adipisci ratione aliquam corrupti officia aut.</p>
+          <button>learn more</button>
+         </div>
+         <div class="container-ele">
+          <i class="fas fa-handshake fa-2x "></i>
+          <h4>Customer Brand Producer</h4>
+          <p>Ut omnis architecto consequuntur ut. Hic sit ut eveniet dolore dolorum magnam aut deserunt quia. Cum similique voluptas repellat quas. Non architecto sunt veniam molestiae.</p>
+          <button>learn more</button>
+         </div>
+         <div class="container-ele">
+          <i class="fas fa-money-bill-alt fa-2x"></i>
+          <h4>Investor Optimization Facilitator</h4>
+          <p>Veniam corporis iste in. Quia fuga accusantium et quisquam. Provident illum dolores id.</p>
+          <button>learn more</button>
+         </div>
+        </div>
+       </div>
+     
+   </section>
+   <!-- tour -->
+   <section id="tours" class="V-section">
+     <div class="title" id="up-Video-container">
+       <div class="container">
+       <video muted autoplay loop class="video-container">
+        <source src="media/video.mp4" type="video/mp4" />
+      </video>
+      <h2 class="h2-text">featured <span>tours</span></h2>
+      <a href="https://github.com/Betsegaw-hp" class="explore-icon" target="_blank" title="external-link"><li class="fab fa-tripadvisor fa-2x"></li></a>
+    </div>
+  </div>
+   </section>
+   <!-- contact us -->
+   <section id="contact-us">
+     <div class="section-center">
+       <div class="title">
+        <h2>contact <span>us</span></h2>
+      </div>
+      <div class="contact-forum-container">
+            <div class="contact-element">
+              <img src="undraw_map_1r69.svg">
+            </div>
+         <div class="contact-element">
+          <h4>Get in touch</h4>
+          <p>Please fill out the quick form and we will be in touch with lightning speed.</p>
+           <form class="fill-form" action="./response.html">
+             <input type="text" class="contact-form" placeholder="Name" required><br>
+             <input type="email" class="contact-form" placeholder="Email" required><br>
+             <textarea class="contact-form-field" placeholder="Message"></textarea><br>
+             <button id="form-btn" class="btn">Submit</button>
+           </form>
+           <h6>
+             <i>For support or any questions:<wbr>
+              Email us at <a href="mailto:betse53@gmail.com">betse53@gmail.com</a></i>
+             </h6>
+             <ul class="social-links">
+               <li class="social-list">
+                 <a href="https://www.facebook.com/betse.man.9" target="_window"><i class="fab fa-facebook-f"></i></a>
+               </li>
+               <li class="social-list">
+                 <a href="https://github.com/Betsegaw-hp" target="_blank"><i class="fab fa-github"></i></a>
+               </li>
+               <li class="social-list">
+                 <a href="https://twitter.com/BetsegawTesfaye" target="_blank"><i class="fab fa-twitter"></i></a>
+               </li>
+               <li class="social-list">
+                 <a href="https://www.linkedin.com/in/betsegaw-tesfaye-437b70128/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+               </li>
+             </ul>
+         </div>
+       </div>
+     </div>
+   </section>
+   <!-- footer -->
+   <footer class="section">
+     <p>
+       copyright &copy; Betsegaw
+       <span id="date"></span>. all rights reserved
+     </p>
+   </footer>
+   <a class="scroll-link top-link" href="#home">
+     <i class="fas fa-arrow-up"></i>
+   </a>
+  <script src="./app.js"></script>
+</body>
+</html>
