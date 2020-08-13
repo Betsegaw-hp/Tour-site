@@ -1,4 +1,24 @@
 /*
+  IE 10+ media query specification 
+*/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .preloader {
+  display:none !important;
+ }
+ .video-container, #tours , .links:nth-child(4) {
+   display:none !important;
+ }
+ .links-container {
+   height:200px !important;
+   display: flex;
+ }
+.nav-toggle {
+    display:none !important;
+ }
+}
+/* END*/
+
+/*
 =============== 
 Fonts
 ===============
