@@ -235,6 +235,9 @@ nav {
   z-index:900;
   transition: var(--transition);
 }
+.links {
+  text-align: center;
+}
 .fixed-nav .links a {
   color: var(--clr-grey-1);
 }
@@ -298,7 +301,6 @@ nav {
   color: var(--clr-secondary);
   padding-left: .5rem;
   background-color: var(--clr-grey-9);
-  border-radius: .5rem;
 }
 
 @media screen and (min-width: 800px) {
