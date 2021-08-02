@@ -526,7 +526,7 @@ footer p {
 }
 .container-ele{
   border: 0 solid transparent;
-  padding:4px;
+  padding:2em;
   flex-grow: 0;
   flex-shrink: 1;
   transition: var(--transition);
