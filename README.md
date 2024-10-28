@@ -3,11 +3,12 @@ This responsive website is created by html5,css3 and js(mostly es6).
  Issues on this project should be solved
    - Issue with IE version 10 and 11 -fixed
 
-# Touring landing site
+# Touring Landing Site
 TL;DR: The "Touring" landing site is a visually stunning website designed to showcase and promote travel services. It features distinct sections that guide visitors through various aspects of the travel experience.
-deployed at:*  https://betsegaw-hp.github.io/Tour-site/
+deployed at:  https://betsegaw-hp.github.io/Tour-site/
 
-## The site includes the following sections:
+### The site includes the following sections:
+=======
 
 - **Home:** A captivating introduction to the website, providing an overview of the travel services offered.
 
