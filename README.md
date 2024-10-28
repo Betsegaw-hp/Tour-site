@@ -8,6 +8,7 @@ TL;DR: The "Touring" landing site is a visually stunning website designed to sho
 deployed at:  https://betsegaw-hp.github.io/Tour-site/
 
 ### The site includes the following sections:
+=======
 
 - **Home:** A captivating introduction to the website, providing an overview of the travel services offered.
 
